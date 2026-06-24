@@ -1,5 +1,7 @@
 # checkdigitkit
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 Zero-dependency TypeScript check digit algorithms: Luhn (credit cards, IMEI), IBAN/BBAN validation & formatting, ISBN-10/13, Damm, credit card type detection. Fills the gaps left by abandoned `luhn` (72k/week) and `iban` (207k/week) npm packages.
 
 [![npm](https://img.shields.io/npm/v/checkdigitkit)](https://www.npmjs.com/package/checkdigitkit)
@@ -233,6 +235,28 @@ function registerDevice(imei: string, model: string) {
 ## Supported IBAN countries (70+)
 
 AD, AE, AL, AT, AZ, BA, BE, BF, BG, BH, BI, BJ, BR, BY, CF, CG, CH, CI, CM, CR, CV, CY, CZ, DE, DJ, DK, DO, DZ, EE, EG, ES, FI, FK, FO, FR, GA, GB, GE, GI, GL, GQ, GR, GT, GW, HN, HR, HU, IE, IL, IQ, IR, IS, IT, JO, KM, KW, KZ, LB, LC, LI, LT, LU, LV, LY, MA, MC, MD, ME, MG, MK, ML, MN, MR, MT, MU, MZ, NE, NI, NL, NO, PK, PL, PS, PT, QA, RO, RS, RU, SA, SC, SD, SE, SI, SK, SM, SN, SO, ST, SV, TD, TG, TL, TN, TR, UA, VA, VG, XK
+
+## Contributors ✨
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome — code, docs, bug reports, ideas, reviews! See the [emoji key](https://allcontributors.org/docs/en/emoji-key) for how each contribution is recognized, and open a PR or issue to get involved.
+
+Thanks goes to these wonderful people:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/trananhtung"><img src="https://avatars.githubusercontent.com/u/30992229?v=4?s=100" width="100px;" alt="Tung Tran"/><br /><sub><b>Tung Tran</b></sub></a><br /><a href="https://github.com/trananhtung/checkdigitkit/commits?author=trananhtung" title="Code">💻</a> <a href="#maintenance-trananhtung" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
